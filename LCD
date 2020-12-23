@@ -1,0 +1,5 @@
+#include <LiquidCrystal_I2C.h>
+const int buttonPin1 = 2, buttonPin2 = 3;    
+int button1_State = 0, button2_State = 0;
+int count_value =0;
+int prestate =0;
